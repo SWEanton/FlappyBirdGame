@@ -1,4 +1,128 @@
 @import "normalize";
-*{
-	box-sizing:border-box;
+* {
+  box-sizing: border-box;
+}
+@import "gameStyle";
+
+@import "gameOver";
+
+#game {
+  width: 600px;
+
+  height: 600px;
+	background-image:url("../img/pinkwojaks.webp");
+	background-size:cover;
+  position: relative;
+
+  border: 3px solid red;
+
+  margin: auto;
+
+  overflow: hidden;
+}
+
+#hero {
+  border: 1px solid black;
+
+  background-color: blueviolet;
+
+  width: 50px;
+
+  height: 50px;
+
+  text-align: center;
+
+  position: absolute;
+
+  top: 50px;
+
+  left: 50px;
+	border-radius:50%;
+	background-image:url("../img/doge.webp");
+	background-size:cover;
+}
+
+.enemy {
+  border: 1px solid black;
+
+  background-color: green;
+
+  width: 50px;
+
+  height: 90px;
+
+  position: absolute;
+
+  top: 0px;
+
+  left: 0px;
+	background-image:url("../img/sbf.webp");
+	background-size:contain;
+}
+
+.enemyUnder {
+  border: 1px solid black;
+
+  background-color: green;
+
+  width: 50px;
+
+  height: 90px;
+
+  position: absolute;
+
+  bottom: 0px;
+
+  left: 0px;
+	background-image:url("../img/sbf.webp");
+	background-size:contain;
+
+}
+
+#wrapper {
+  height: 100vh;
+
+  width: 100vw;
+
+  position: relative;
+}
+
+#gameOverScreenBody {
+  width: 350px;
+
+  height: 200px;
+
+  background-color: rgb(128, 128, 128);
+
+  margin: auto;
+
+  border: solid 2px black;
+
+  text-align: center;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+	background-image:url("../img/carlos.webp");
+	background-size:cover;
+}
+
+#gameOverText {
+  color: red;
+
+  font-size: 2rem;
+
+  font-family: fantasy;
+}
+
+#pressXToTryAgain {
+	color:orange;
+}
+
+#body {
+  max-height: 100vh;
 }

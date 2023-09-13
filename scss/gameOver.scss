@@ -1,15 +1,24 @@
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
 #gameOverScreenBody {
-    width: fit-content;
-    height: fit-content;
+  width: 350px;
+  height: 200px;
+  background-color: rgb(128, 128, 128);
+  margin: auto;
+  border: solid 2px black;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#quitGameBtn {
-
-}
-#playAgainBtn {
-
-}
-
-.gameOverText {
-    color: red;
+#gameOverText {
+  color: red;
+  font-size: 2rem;
+  font-family: fantasy;
 }
