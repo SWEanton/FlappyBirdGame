@@ -1,0 +1,23 @@
+från video 2 av senaste lektionen 00:41 min in i videon ish så är det typ flappybirdsen.
+
+Enkla problem att lösa: 
+
+1. Invertera fiendeyta. Ist för att det är ett litet område där man dör om man är på så gör om det till att det är ett litet område man överlever där man är på - Anton
+
+2. Ändra kontrollerfna från wasd till bara typ spacebar som gör att gubben hoppar
+
+3. Ändra namn och klasser för högre semantik, applicerat till vårat project
+
+4. En game over skärm
+
+5. Få gubben att faktiskt dö om den krockar
+
+Svårare problem att lösa 
+
+1. Gravitation
+
+Roliga problem
+
+1. Eyecandy grafik
+
+2. Roliga ljudeffekter

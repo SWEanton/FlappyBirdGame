@@ -1,0 +1,74 @@
+25x25
+function makeGamePlanArray() {
+	funktion för att automatiskt skapa vår spelplan, kommer krävas matte som spottar och formaterar ut array  (skriva ut den manuellt kommer nämligen vara aldeles för mkt)
+}
+
+gamePlanArray = [
+
+	{
+		"xAngle": 1,
+		"yAngle": 1
+	},
+]
+
+
+function makeGamePlan(planArray) {
+	funktion för att skapa switchar med divid namn som matchar gameplan array objekt
+}
+
+makeGamePlan(gamePlanArray);
+
+snakeArray [
+	{
+		"pixelIndex": 1,		
+		"snakeX": 1,
+		"snakeY": 1
+	}
+]
+
+function createApple() {
+	if (!apple) {
+		skapa ett äpple på en random ruta i gamePlanArray (programmera även så att äpplet ej kan skapas på en ruta inkluderad i 
+	}
+}
+
+function drawSnake() {
+	setInterval function innehållande update funktionen. Se även till att denna gör att ormen fortsätter åka frammåt med hjälp av keystrokesen under
+
+	document.addEventListener("keyup", (e) => {
+
+		//måste ha ett if statement if (snakeArray[2]) { omöjligt att trycka på piltangent motsvarande den som index 2 befinner sig på i förhållande till index 1}
+		switch (e.key)
+			case "w":
+			case "ArrowUp":
+				upp
+			break;
+			case "a":
+			case "ArrowLeft":
+				vänster
+			break;
+			case "s":
+			case "ArrowDown":
+				ner
+			break;
+			case "d":
+			case "ArrowRight":
+				höger
+			break;
+	
+	function för at äta äpple och bli större
+	
+}
+
+
+function update() {
+	function som updaterar hur spelplanen ser ut
+}
+
+function gameover(snakeArray) {
+	if (smakeArray index 1 == snakeArray index[i] or if snakearray =/= gamePlanArray) {	
+		gör sak som ska hända när game over
+	}
+}
+
+
